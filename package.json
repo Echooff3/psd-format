@@ -1,0 +1,24 @@
+{
+  "name": "psd-format",
+  "version": "0.0.1",
+  "description": "Node Package that writes to the PSD format. Based on the documentation located at https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Echooff3/psd-format.git"
+  },
+  "keywords": [
+    "PSD",
+    "Adobe",
+    "PhotoShop"
+  ],
+  "author": "john.skibicki.iii@gmail.com",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Echooff3/psd-format/issues"
+  },
+  "homepage": "https://github.com/Echooff3/psd-format#readme"
+}
