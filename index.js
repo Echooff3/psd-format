@@ -4,7 +4,7 @@ var options = { encoding: enc };
 
 module.exports = function(filename, width, height, vguides, hguides) {  
   //Keep our struct open to fill in gaps
-  var rstruct = fs.createReadStream('struct.dat', {start: 31, autoClose: true});
+  var rstruct = fs.createReadStream('struct600x600.dat', {start: 31, autoClose: true});
   var wstream = fs.createWriteStream(filename, options);
   // Write Header 
   // Signature
